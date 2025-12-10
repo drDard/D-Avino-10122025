@@ -14,5 +14,7 @@ for (int i=0; i<=20; i++)
 }
 float conversione (int gradi_c)
 {
-	return 32+(9/5)*gradi_c;
+	const int valore1=32;
+	const int valore2=9/5;
+	return valore1+(valore2)*gradi_c;
 }
